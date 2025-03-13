@@ -1,0 +1,111 @@
+.navbar{
+    background: #12265b;
+    margin-bottom: 2rem !important;
+}
+body{
+    background: #090F14;
+    font-family: "Cairo", sans-serif;
+    overflow-x: hidden;
+}
+.hero{
+    background-image: url(bg.png);
+    background-position: center;
+    background-size:cover;
+}
+.lead{
+    font-weight: 600; 
+}
+.content{
+    color: white;
+}
+.content h2{
+    font-weight: 800;
+}
+.content h2 span{
+    color: #004aad;
+}
+.btn{
+    margin-bottom:0rem !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+section {
+    margin-bottom: 6rem; 
+}
+.feature-section-1{
+    color: white;
+}
+.feature-section-1 h2{
+    color: #004aad;
+}
+.col-6{
+    margin-bottom: 1rem;
+}
+.quality{
+    background: white;
+    border-radius: 12px;
+    position: relative;
+}
+.quality h3{
+    color: #2767b5;
+    font-weight: bold; 
+}
+.quality img{
+    position: absolute;
+    right: 2rem;
+    top: -2rem;
+    border: 5px solid #021630;
+    border-radius: 50%;
+    max-height: 85px;
+    max-width: 85px;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.item {
+    flex: 1 1 calc(33.33% - 15px); 
+    max-width: calc(33.33% - 15px);
+}
+
+.item img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+.Gallery{
+    margin-top: 5rem;
+}
+.footer{
+    background: #021630;
+}
+
+@media (max-width: 768px) {
+    .navbar span, .footer {
+        font-size: 0.8rem; 
+    }
+    section {
+        margin-top: 6rem; 
+    }
+    .hero img {
+        width: 250px !important; 
+    }
+    .quality img{
+        position: absolute;
+        right: 2rem;
+        top: -2rem;
+        border: 5px solid #021630;
+        border-radius: 50%;
+        max-height: 70px;
+        max-width: 60px;
+    }
+    .item {
+        flex: 1 1 100%; 
+        max-width: 100%;
+    }
+}
