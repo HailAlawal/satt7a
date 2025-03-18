@@ -24,9 +24,13 @@ body{
 .content h2 span{
     color: #004aad;
 }
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
 .btn{
     margin-bottom:0rem !important;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 section {
